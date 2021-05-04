@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 50px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: coral;
+    color: khaki;
+    box-shadow:0 0 10px silver;
+}
+
+/* Section */
+body{
+    display: flex;
+    flex-direction: column;
+    background: url('./swatch_tuscany-brown-.png') no-repeat center center/cover;
+    height: 840px;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 840px;
+
+}
+
+.main {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.head {
+    /* width: 50%; */
+    font-size: 80px;
+    padding-top: 200px;
+    font-weight: bolder;
+    margin: 40px 0px;
+    
+}
+
+.img-con {
+    width: 50%;
+    padding-left: 1340px;
+}
+
+.img-con img {
+    width: 500px;
+    margin-top: -500px;
+  
+}
+
+.btn{
+    background-color: transparent;
+    padding: 10px 35px;
+    border: 1px solid black;
+    color: black;
+    transition: .6s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:coral;
+    color: khaki;
+    box-shadow:0 0 5px coral, 0 0 10px coral, 0 0 15px coral;
+    font-weight: bolder;
+}
