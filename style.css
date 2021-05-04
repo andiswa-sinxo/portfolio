@@ -39,7 +39,7 @@ body{
     display: flex;
     flex-direction: column;
     background: url('./swatch_tuscany-brown-.png') no-repeat center center/cover;
-    height: 840px;
+    /* height: 840px; */
 }
 #home::before{
     content: "";
@@ -90,3 +90,50 @@ body{
     box-shadow:0 0 5px coral, 0 0 10px coral, 0 0 15px coral;
     font-weight: bolder;
 }
+
+/* About me */
+.pic {
+    width: 50%;
+}
+.pic img {
+    width: 500px;
+    margin-top: 100px;
+    margin: auto;
+}
+.about-me {
+    width: 50%;
+    margin-top: 10;
+
+}
+.about-me h2 {
+margin-top: 50px;
+margin-bottom: 50px;
+font-size: 50px;
+text-transform: uppercase;
+font-weight: bold;
+}
+.about-me p {
+    font-size: 25px;
+}
+
+#home {
+    height: 900px;
+}
+#about {
+    background-color: white;
+    height: 900px;
+    padding-top: 100px;
+  
+}
+#about h1{
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about {
+  
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
