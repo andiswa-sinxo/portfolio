@@ -105,10 +105,12 @@
 
 #pic{
     display: flex;
+    margin-top: 275px;
 }
 
 #pic img{
     width: 570px;
-    height: 400px;
+    height: 570px;
+    
 }
 
