@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(241, 216, 182);
     position: sticky;
     top: 0;
 }
@@ -35,18 +36,20 @@
 }
 
 /* Section */
-body{
+#home{
     display: flex;
     flex-direction: column;
-    background: url('./swatch_tuscany-brown-.png') no-repeat center center/cover;
-    /* height: 840px; */
+    /* background: url('./swatch_tuscany-brown-.png') no-repeat center center/cover; */
 }
 #home::before{
     content: "";
     position: absolute;
     top: 0;
     right: 0;
-    height: 840px;
+    background: url('./swatch_tuscany-brown-.png') no-repeat center center/cover;
+    height: 1000px;
+    width: 100%;
+    z-index: -1;
 
 }
 
@@ -56,7 +59,7 @@ body{
     margin: auto;
 }
 
-.head {
+.headings {
     /* width: 50%; */
     font-size: 80px;
     padding-top: 200px;
@@ -67,7 +70,7 @@ body{
 
 .img-con {
     width: 50%;
-    padding-left: 1340px;
+    padding-left: 1090px;
 }
 
 .img-con img {
@@ -92,48 +95,20 @@ body{
 }
 
 /* About me */
-.pic {
-    width: 50%;
-}
-.pic img {
-    width: 500px;
-    margin-top: 100px;
-    margin: auto;
-}
-.about-me {
-    width: 50%;
-    margin-top: 10;
-
-}
-.about-me h2 {
-margin-top: 50px;
-margin-bottom: 50px;
-font-size: 50px;
-text-transform: uppercase;
-font-weight: bold;
-}
-.about-me p {
-    font-size: 25px;
-}
-
-#home {
-    height: 900px;
-}
 #about {
-    background-color: white;
-    height: 900px;
-    padding-top: 100px;
-  
+    display: flexbox;
+    flex-direction: column;
 }
 #about h1{
-    font-size: 70px;
-    text-align: center;
-    margin-bottom: 50px;
+    text-align: center;  
 }
-.about {
-  
+
+#pic{
     display: flex;
-    width: 80%;
-    margin: auto;
+}
+
+#pic img{
+    width: 570px;
+    height: 400px;
 }
 
